@@ -108,7 +108,7 @@
             </a>
             <ul class="menu-sub">
                 <li class="menu-item">
-                    <a href="/newPayments" class="menu-link">
+                    <a href="/new_payment" class="menu-link">
                         <div data-i18n="Add Payments">Add Payments</div>
                     </a>
                 </li>

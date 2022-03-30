@@ -10,6 +10,7 @@ use coding\app\controllers\Catigory;
 use coding\app\controllers\Book;
 use coding\app\controllers\Author;
 use coding\app\controllers\Offer;
+use coding\app\controllers\Payment;
 use coding\app\controllers\Publisher;
 
 use Dotenv\Dotenv;
@@ -43,6 +44,8 @@ Router::get('/save_book',[Book::class,'newBook']);
 Router::get('/new_publisher',[Publisher::class,'newPublisher']);
 Router::get('/save_publisher',[Publisher::class,'savePublisher']);
 Router::get('/new_admin',[Admin::class,'newAdmin']);
+Router::get('/new_payment',[ Payment::class,'newPayment']);
+Router::get('/save_payment',[ Payment::class,'savePayment']);
 
 
 $system->start();
