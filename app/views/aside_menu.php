@@ -146,7 +146,7 @@
             </a>
             <ul class="menu-sub">
                 <li class="menu-item">
-                    <a href="/newPublisher" class="menu-link">
+                    <a href="/new_publisher" class="menu-link">
                         <div data-i18n="Add Publisher"> Add Publisher </div>
                     </a>
                 </li>
@@ -165,7 +165,7 @@
             </a>
             <ul class="menu-sub">
                 <li class="menu-item">
-                    <a href="/newOffer" class="menu-link">
+                    <a href="/new_offer" class="menu-link">
                         <div data-i18n="Add Offer"> Add Offer </div>
                     </a>
                 </li>
