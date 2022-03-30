@@ -9,6 +9,7 @@ use coding\app\system\Router;
 use coding\app\controllers\Catigory;
 use coding\app\controllers\Book;
 use coding\app\controllers\Author;
+use coding\app\controllers\City;
 use coding\app\controllers\Offer;
 use coding\app\controllers\Payment;
 use coding\app\controllers\Publisher;
@@ -46,6 +47,9 @@ Router::get('/save_publisher',[Publisher::class,'savePublisher']);
 Router::get('/new_admin',[Admin::class,'newAdmin']);
 Router::get('/new_payment',[ Payment::class,'newPayment']);
 Router::get('/save_payment',[ Payment::class,'savePayment']);
+
+Router::get('/new_city',[ City::class,'newCity']);
+Router::get('/save_city',[ City::class,'saveCity']);
 
 
 $system->start();

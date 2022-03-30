@@ -73,6 +73,28 @@
             </ul>
         </li>
 
+
+
+        <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                <div data-i18n="City">City</div>
+            </a>
+            <ul class="menu-sub">
+                <li class="menu-item">
+                    <a href="/new_city" class="menu-link">
+                        <div data-i18n="Add City">Add City </div>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="/showCatigory" class="menu-link">
+                        <div data-i18n="Show  City">Show City</div>
+                    </a>
+                </li>
+
+            </ul>
+        </li>
+
         <!-- Author -->
         <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
