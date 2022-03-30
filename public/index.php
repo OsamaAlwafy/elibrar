@@ -6,6 +6,8 @@ use coding\app\controllers\PublishersController;
 use coding\app\system\AppSystem;
 use coding\app\system\Router;
 use coding\app\controllers\Catigory;
+use coding\app\controllers\Book;
+
 use Dotenv\Dotenv;
 
 $dotenv = Dotenv::createImmutable(dirname(__DIR__));//createImmutable(__DIR__);
@@ -31,6 +33,8 @@ Router::get('/books',function(){
 
 Router::post('/save_catigory',[Catigory::class,'saveCatigory']);
 Router::get('/new_catigory',[Catigory::class,'newCatigory']);
+Router::get('/new_book',[Book::class,'newBook']);
+Router::get('/save_book',[Book::class,'newBook']);
 
 
 $system->start();

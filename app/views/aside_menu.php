@@ -127,7 +127,7 @@
             </a>
             <ul class="menu-sub">
                 <li class="menu-item">
-                    <a href="/addBook" class="menu-link">
+                    <a href="/new_book" class="menu-link">
                         <div data-i18n="Add Book">Add Book</div>
                     </a>
                 </li>
