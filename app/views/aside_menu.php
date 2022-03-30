@@ -196,7 +196,7 @@
                 </li>
 
                 <li class="menu-item">
-                    <a href="/newAdmin" class="menu-link">
+                    <a href="/new_admin" class="menu-link">
                         <div data-i18n="Add Admin">Add Admin</div>
                     </a>
                 </li>

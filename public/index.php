@@ -1,6 +1,7 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
 
+use coding\app\controllers\Admin;
 use coding\app\controllers\AuthorsController;
 use coding\app\controllers\PublishersController;
 use coding\app\system\AppSystem;
@@ -41,6 +42,7 @@ Router::get('/new_book',[Book::class,'newBook']);
 Router::get('/save_book',[Book::class,'newBook']);
 Router::get('/new_publisher',[Publisher::class,'newPublisher']);
 Router::get('/save_publisher',[Publisher::class,'savePublisher']);
+Router::get('/new_admin',[Admin::class,'newAdmin']);
 
 
 $system->start();
