@@ -83,7 +83,7 @@
             <ul class="menu-sub">
 
                 <li class="menu-item">
-                    <a href="/newAuthor" class="menu-link">
+                    <a href="/new_author" class="menu-link">
                         <div data-i18n="Add Author">Add Author</div>
                     </a>
                 </li>

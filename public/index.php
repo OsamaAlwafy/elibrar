@@ -7,6 +7,7 @@ use coding\app\system\AppSystem;
 use coding\app\system\Router;
 use coding\app\controllers\Catigory;
 use coding\app\controllers\Book;
+use coding\app\controllers\Author;
 
 use Dotenv\Dotenv;
 
@@ -25,10 +26,9 @@ $system=new AppSystem($config);
 Router::get('/users',[UsersController::class,'show']);
 
 
-Router::get('/books',function(){
-  echo "books route path";
-});
 
+Router::get('/new_author',[Author::class,'newAuthor']);
+Router::get('/save_author',[Author::class,'newAuthor']);
 
 
 Router::post('/save_catigory',[Catigory::class,'saveCatigory']);
