@@ -150,7 +150,7 @@
           <!-- Content -->
           <div class="card mb-4 ">
             <h5 class="card-header">Enter Author Details</h5>
-            <form class="card-body  border-0" action="/save_catigory" method="POST" id="dropzone-basic" enctype="multipart/form-data">
+            <form class="card-body  border-0" action="/save_author" method="POST" id="dropzone-basic" enctype="multipart/form-data">
 
               <div class="row g-3">
                 <div class="col-md-6 mb-1">
@@ -200,7 +200,7 @@
                   <div class="col-md-12">
 
                     <label class="form-label" for="bootstrap-maxlength-example2">Author Description</label>
-                    <textarea id="bootstrap-maxlength-example2" class="form-control bootstrap-maxlength-example" rows="3" maxlength="255"></textarea>
+                    <textarea id="bootstrap-maxlength-example2" name="desc" class="form-control bootstrap-maxlength-example" rows="3" maxlength="255"></textarea>
 
                   </div>
 

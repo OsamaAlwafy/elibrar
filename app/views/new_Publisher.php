@@ -596,7 +596,7 @@
           <!-- Content -->
           <div class="card mb-4 ">
             <h5 class="card-header">Enter Publisher Details</h5>
-            <form class="card-body  border-0" action="/savePublisher" method="POST" id="dropzone-basic" enctype="multipart/form-data">
+            <form class="card-body  border-0" action="/save_publisher" method="POST" id="dropzone-basic" enctype="multipart/form-data">
 
               <div class="row g-3">
                 <div class="col-md-6 mb-1">
@@ -610,7 +610,7 @@
 
                 <div class="col-md-6 mb-1">
                   <label class="form-label" for="multicol-username">Publisher phone Alertnative</label>
-                  <input name="phone-alt" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+                  <input name="alt_phone" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
                 </div>
 
 
@@ -631,18 +631,18 @@
 
                 <div class="col-md-6 mb-1">
                   <label class="form-label" for="multicol-username">Publisher fax</label>
-                  <input name="fax" type="email" id="multicol-username" class="form-control" placeholder="john.doe" />
+                  <input name="fax" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
                 </div>
 
 
                 <div class="col-md-6 mb-1">
                   <label class="form-label" for="multicol-username">Publisher Address</label>
-                  <input name="address" type="email" id="multicol-username" class="form-control" placeholder="john.doe" />
+                  <input name="address" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
                 </div>
 
                 <div class="col-md-6 mb-1">
                   <label class="form-label" for="multicol-username">Publisher Country</label>
-                  <input name="country" type="email" id="multicol-username" class="form-control" placeholder="john.doe" />
+                  <input name="country" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
                 </div>
 
 

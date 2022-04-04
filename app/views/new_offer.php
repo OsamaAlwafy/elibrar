@@ -596,30 +596,30 @@
           <!-- Content -->
           <div class="card mb-4 ">
             <h5 class="card-header">Enter Offer Details</h5>
-            <form class="card-body  border-0" action="/saveOffer" method="POST" id="dropzone-basic" enctype="multipart/form-data">
+            <form class="card-body  border-0" action="/save_offer" method="POST" id="dropzone-basic" enctype="multipart/form-data">
 
               <div class="row g-3">
                 <div class="col-md-6 mb-1">
                   <label class="form-label" for="multicol-username">Offer Title</label>
-                  <input name="name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+                  <input name="title" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
                 </div>
 
 
                 <div class="col-md-6 mb-1">
                   <label for="html5-number-input" class="col-md-2 col-form-label">Discount</label>
-                  <input class="form-control" type="number" name="Discount" value="18" id="html5-number-input" />
+                  <input class="form-control" type="number" name="discount" value="18" id="html5-number-input" />
                 </div>
 
 
 
                 <div class="col-md-6 mb-1">
                   <label for="html5-datetime-local-input" class="col-md-2 col-form-label">Start Time</label>
-                  <input class="form-control" name="start-time" type="datetime-local" value="2021-06-18T12:30:00" id="html5-datetime-local-input" />
+                  <input class="form-control" name="start_date" type="datetime-local" value="2021-06-18T12:30:00" id="html5-datetime-local-input" />
                 </div>
 
                 <div class="col-md-6 mb-1">
                   <label for="discout-datetime-local-input" class="col-md-2 col-form-label">End Time</label>
-                  <input class="form-control" name="end-time" type="datetime-local" value="2021-06-18T12:30:00" id="discout-datetime-local-input" />
+                  <input class="form-control" name="end_date" type="datetime-local" value="2021-06-18T12:30:00" id="discout-datetime-local-input" />
                 </div>
 
                 <div class="col-md-6 mb-4">
@@ -667,7 +667,7 @@
                     <label class="form-label" for="multicol-confirm-password">All Books</label>
                     <div class="input-group input-group-merge">
                       <label class="switch">
-                        <input name="is_all_book" value=1 type="checkbox" checked class="switch-input" />
+                        <input name="all_books" value=1 type="checkbox" checked class="switch-input" />
                         <span class="switch-toggle-slider">
                           <span class="switch-on"></span>
                           <span class="switch-off"></span>

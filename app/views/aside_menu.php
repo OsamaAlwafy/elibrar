@@ -65,8 +65,8 @@
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="/showCatigory" class="menu-link">
-                        <div data-i18n="Show  Catigory">Show Catigory</div>
+                    <a href="/show_catigory" class="menu-link">
+                        <div data-i18n="Show Catigory">Show Catigory</div>
                     </a>
                 </li>
 
@@ -87,7 +87,7 @@
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="/showCatigory" class="menu-link">
+                    <a href="/show_city" class="menu-link">
                         <div data-i18n="Show  City">Show City</div>
                     </a>
                 </li>
@@ -110,7 +110,7 @@
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="/showAuthor" class="menu-link">
+                    <a href="/show_author" class="menu-link">
                         <div data-i18n="Show Author">Show Author</div>
                     </a>
                 </li>
@@ -154,7 +154,7 @@
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="/showBook" class="menu-link menu-toggle">
+                    <a href="/show_book" class="menu-link">
                         <div data-i18n="Show Book">Show Book</div>
                     </a>
 
@@ -233,7 +233,7 @@
             </a>
             <ul class="menu-sub">
                 <li class="menu-item">
-                    <a href="/showOrder" class="menu-link">
+                    <a href="/show_order" class="menu-link">
                         <div data-i18n="Show Order "> Show Order </div>
                     </a>
                 </li>

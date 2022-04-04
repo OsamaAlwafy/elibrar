@@ -150,7 +150,7 @@
           <!-- Content -->
           <div class="card mb-4 ">
             <h5 class="card-header">Enter City Details</h5>
-            <form class="card-body  border-0" action="/save_catigory" method="POST" id="dropzone-basic" enctype="multipart/form-data">
+            <form class="card-body  border-0" action="/save_city" method="POST" id="dropzone-basic">
 
               <div class="row g-3">
                 <div class="col-md-6 mb-1">

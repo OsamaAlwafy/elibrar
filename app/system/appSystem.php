@@ -14,7 +14,7 @@ class AppSystem{
     {
 
         
-    	$this->database=new Database($dbConfig);
+    	$this->database=new DB($dbConfig);
         self::$appSystem=$this;
         $this->request=new Request();
         $this->response=new Response();

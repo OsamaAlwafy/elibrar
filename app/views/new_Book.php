@@ -3,29 +3,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- =========================================================
 * Sneat - Bootstrap 5 HTML Admin Template - Pro | v1.0.0
 ==============================================================
@@ -596,7 +573,7 @@
           <!-- Content -->
           <div class="card mb-4 ">
             <h5 class="card-header">Enter Catigory Details</h5>
-            <form class="card-body  border-0" action="/save_catigory" method="POST" id="dropzone-basic" enctype="multipart/form-data">
+            <form class="card-body  border-0" action="/save_book" method="POST" id="dropzone-basic" enctype="multipart/form-data">
 
               <div class="row g-3">
                 <div class="col-md-6 mb-1">
@@ -611,7 +588,7 @@
 
                 <div class="col-md-6 mb-1">
                   <label for="price" class=" col-form-label">pages Number</label>
-                  <input class="form-control" id="number-page" name="price" type="number" value="18" />
+                  <input class="form-control" id="pages_number" name="pages_number" type="number" value="18" />
                 </div>
 
 
@@ -642,12 +619,18 @@
                 <div class="col-md-6 mb-4">
                   <label for="select2Basic" class="form-label">Catigory </label>
                   <select id="select2Basic" name="catigory_id" class="select2 form-select form-select-lg" data-allow-clear="true">
-                    <option value="AK">Alaska</option>
-                    <option value="HI">Hawaii</option>
+                    <?php
+                    foreach($params['cat'] as $catigory )
+                    {
+                    ?>  
+                  <option value=<?php echo $catigory->id;   ?>> <?php echo $catigory->name ;  ?></option>
+                    <!-- <option value="HI">Hawaii</option>
                     <option value="CA">California</option>
                     <option value="NV">Nevada</option>
                     <option value="OR">Oregon</option>
-                    <option value="WA">Washington</option>
+                    <option value="WA">Washington</option> -->
+                    <?php } ?>
+
                   </select>
                 </div>
 
@@ -665,7 +648,7 @@
 
 
                   <label class="form-label" for="bootstrap-maxlength-example2">Book Description</label>
-                  <textarea id="bootstrap-maxlength-example2" class="form-control bootstrap-maxlength-example" rows="3" maxlength="255"></textarea>
+                  <textarea id="bootstrap-maxlength-example2" name="description" class="form-control bootstrap-maxlength-example" rows="3" maxlength="255"></textarea>
 
                 </div>
 

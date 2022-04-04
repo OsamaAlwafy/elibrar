@@ -596,7 +596,7 @@
           <!-- Content -->
           <div class="card mb-4 ">
             <h5 class="card-header">Enter Payment Details</h5>
-            <form class="card-body  border-0" action="/savePayment" method="POST" id="dropzone-basic" enctype="multipart/form-data">
+            <form class="card-body  border-0" action="/save_payment" method="POST" id="dropzone-basic" enctype="multipart/form-data">
 
               <div class="row g-3">
                 <div class="col-md-6 mb-1">
@@ -647,50 +647,7 @@
                 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  <!-- <div class="mb-3">
-                  <label for="formFile" class="form-label">Default file input example</label>
-                  <input class="form-control" name="img" type="file" id="formFile">
-                </div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </div>
-
-
-
-
-
-
                 <div class="pt-4">
                   <button type="submit" class="btn btn-primary me-sm-3 me-1">Submit</button>
                   <button type="reset" class="btn btn-label-secondary">Cancel</button>
